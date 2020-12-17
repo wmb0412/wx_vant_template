@@ -1,0 +1,5 @@
+/* pages/login/login.wxss */
+#login{
+  display: flex;
+  justify-content: center;
+}

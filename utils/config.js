@@ -1,0 +1,1 @@
+export const baseUrl = 'https://test-ahead-teacher.edu.newpage.ink/api/';  //

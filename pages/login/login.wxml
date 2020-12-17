@@ -1,0 +1,12 @@
+<!--pages/login/login.wxml-->
+<view>
+	<van-cell-group>
+		<van-field label="手机号" value="{{ mobile }}" placeholder="请输入用户名" border="{{ false }}" bind:change="onChangeMobile" />
+	</van-cell-group>
+	<van-cell-group>
+		<van-field label="密码" value="{{ password }}" placeholder="请输入用户名" border="{{ false }}" bind:change="onChangePassword" />
+	</van-cell-group>
+	<view id="login">
+		<van-button bindtap="login" type="primary">登陆</van-button>
+	</view>
+</view>
